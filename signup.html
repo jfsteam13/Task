@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        h1 {
+            padding-left: 10px;
+        }
+
+        input[type=text] {
+            width: 20%;
+            padding: 9px 15px;
+            border-radius: 5px;
+            border-color: black;
+            margin-top: 30px;
+        }
+
+        input[type=password] {
+            width: 17%;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border-color: black;
+            margin-top: 40px;
+
+        }
+
+        input[type=email] {
+            width: 20%;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border-color: black;
+            margin-top: 40px;
+            margin-left: 2%;
+
+        }
+
+        button {
+            margin-top: 40px;
+            margin-left: 50px;
+            padding: 4px 50px;
+            font-size: 15px;
+
+        }
+        .container{
+            margin-right: 59px;
+
+        }
+
+        body {
+            border: 100px;
+            color: darkgoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1> Sign up</h1>
+
+        <form action="Signup" method="post" style="border-radius: 100px;">
+
+            <label for="username">Username:</label>
+
+            <input type="text" placeholder="username" style="box-sizing: border-box;"><br>
+            <label for="Email">Email:</label>
+
+            <input type="email" placeholder="Email" style="box-sizing: border-box;"><br>
+
+
+            <div >
+
+                <label for="password">Password:</label>
+                <input type="password" placeholder="password" style="gap: 100px;"><br>
+            </div>
+            <div class="container">
+
+                <label for=" password">Confirm Password:</label>
+                <input type="password" placeholder="Confirm password" style="gap: 100px;"><br>
+
+
+            </div>
+            <a href="">
+                <button>Submit</button>
+            </a>
+            <p>Already have account?<a href="http://127.0.0.1:5500/Login.html">Login</a></p>
+        </form>
+    </center>
+
+
+
+</body>
+
+</html>
