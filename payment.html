@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <style>
+        h1 {
+            padding-left: 10px;
+        }
+
+        input[type=text] {
+            width: 20%;
+            padding: 9px 15px;
+            border-radius: 5px;
+            border-color: black;
+            margin-top: 30px;
+        }
+
+        input[type=text] {
+            width: 17%;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border-color: black;
+            margin-top: 40px;
+
+        }
+
+        input[type=search] {
+            width: 20%;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border-color: black;
+            margin-top: 40px;
+            margin-left: 2%;
+
+        }
+
+        button {
+            padding: 4px, 40px;
+            font-size: 20px;
+            margin-top: 5%;
+        }
+
+        .container {
+            margin-left: 4%;
+
+
+        }
+
+        .container1 {
+            margin-left: 2%;
+        }
+
+        body {
+            border: 150px;
+            color: darkgoldenrod;
+        }
+
+        input[type=month] {
+            margin-top: 3%;
+            font-size: 20px;
+            margin-right: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1> Sign up</h1>
+
+        <form action="Payment" method="post" style="border-radius: 100px;">
+            <input type="radio">
+            <label for="UPI">UPI:</label>
+
+            <input type="text" placeholder="@ybl" style="box-sizing: border-box;"><br>
+
+
+            <input type="radio">
+            <label for="Card">Card:</label>
+
+            <input type="search" placeholder="debit/credit" style="box-sizing: border-box;"><br>
+
+
+            <div class="container1">
+
+                <label for="card num">Card No:</label>
+                <input type="text" placeholder="card number" style="gap: 100px;"><br>
+            </div>
+            <div class="container">
+
+                <label for=" CVV">CVV:</label>
+                <input type="text" placeholder="CVV" style="gap: 100px;"><br>
+
+
+            </div>
+            <label for="">Expire date</label>
+            <input type="month"><br>
+
+            <a href="http://127.0.0.1:5500/payment%20success.html">
+                <button>Pay Now</button>
+            </a>
+
+        </form>
+    </center>
+
+
+
+</body>
+
+</html>
