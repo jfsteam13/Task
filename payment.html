@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <style>
+        input[type=text]{
+            font-size:10px ;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <center>
+        <h1>Payment page<h1>
+
+        <!-- Payment Form -->
+
+        <form action="/process-payment" method="post" style="border-radius: 100px;" >
+            <input type="radio">
+            <label for="UPI" style="margin-right: 150px;">UPI:</label>
+            <input type="text" placeholder="UPI@ybl" style="box-sizing: border-box;"><br>
+
+           
+            <label for="card" style="margin-left: 170px;">CARD:</label>
+            <label for="card-holder">Card Holder Name:</label>
+            <input type="text" id="card-holder" name="card-holder" required><br><br>
+
+    
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" required><br><br>
+
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required ><br><br>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required><br><br>
+
+           
+
+            
+        </form>
+    </center>
+</body>
+
+</html>
